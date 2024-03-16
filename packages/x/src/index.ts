@@ -1,3 +1,1 @@
-export type $X = {};
-
-export default {};
+export { default as x$ } from './x';
