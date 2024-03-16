@@ -1,6 +1,6 @@
 # $x - Extendable JavaScript and TypeScript Utility Library
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE.txt)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE)
 
 `$x` is a highly flexible and extendable utility library for JavaScript and TypeScript, designed to streamline the integration and extension of various utility libraries like lodash, moment, and ramda. With `$x`, developers can easily create custom higher-order functions, ensuring adaptability and maintainability in their codebase.
 
@@ -51,4 +51,4 @@ _TODO: Provide instructions on how to contribute_
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.
+Distributed under the MIT License. See [LICENSE.txt](LICENSE) for more information.
