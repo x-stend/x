@@ -51,4 +51,4 @@ _TODO: Provide instructions on how to contribute_
 
 ## License
 
-Distributed under the MIT License. See [LICENSE.txt](LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
