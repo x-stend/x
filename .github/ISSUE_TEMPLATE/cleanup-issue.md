@@ -1,20 +1,20 @@
 ---
-name: Documentation Update
-about: Propose updates or additions to the documentation
-title: "[DOCUMENTATION]: "
-labels: documentation
+name: Cleanup Task
+about: Propose a codebase or documentation cleanup task
+title: "[CLEANUP]: "
+labels: cleanup
 assignees: ''
 
 ---
 
-## Documentation Issue or Request
-<!-- Brief description of the documentation issue or request. -->
+## Cleanup Scope
+<!-- Area of the codebase or documentation to be cleaned up. -->
 
-## Specifics
-<!-- What needs to be updated, added, or changed in the documentation? -->
+## Details
+<!-- Specific details about what needs to be cleaned up. -->
 
-## Motivation
-<!-- Why is this change necessary? What does it improve? -->
+## Impact
+<!-- How will this cleanup improve the project? -->
 
-## Additional Context
-<!-- Any other context or screenshots about the documentation request. -->
+## Additional Information
+<!-- Any additional information or context for the cleanup. -->
