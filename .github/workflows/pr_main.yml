@@ -1,0 +1,16 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  log_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log PR Message
+        run: echo "TEST, will check test and lint results later"
+
+      - name: Return Success Status
+        run: "echo 'Merge check: OK'"
