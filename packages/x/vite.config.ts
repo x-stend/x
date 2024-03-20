@@ -11,7 +11,7 @@ export default defineConfig({
     emptyOutDir: true,
     lib: {
       entry: 'src/index.ts',
-      name: '$x-stend',
+      name: 'x$tend',
       formats: ['umd'],
     },
     sourcemap: true,
