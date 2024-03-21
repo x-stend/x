@@ -1,4 +1,4 @@
-import {defineConfig} from 'vite';
+import {defineConfig} from 'vitest/config';
 import dts from 'vite-plugin-dts';
 
 export default defineConfig({
@@ -16,5 +16,18 @@ export default defineConfig({
     },
     sourcemap: true,
     minify: true,
+  },
+  test: {
+    coverage: {
+      enabled: true,
+      provider: 'v8',
+      reporter: ['json', 'html'],
+      thresholds: {
+        branches: 100,
+        functions: 100,
+        lines: 100,
+        statements: 100,
+      },
+    }
   },
 });

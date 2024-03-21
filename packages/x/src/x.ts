@@ -1,6 +1,6 @@
-export type X$ = () => void;
+export type X$ = () => string;
 
-const x$: X$ = () => {};
+const x$: X$ = () => 'x$';
 
 export default x$;
 
