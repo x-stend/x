@@ -17,6 +17,6 @@ export default tsEsLint.config(
       },
     },
   },
-  esLint.configs.recommended,
-  ...tsEsLint.configs.recommended,
+  esLint.configs.all,
+  ...tsEsLint.configs.all,
 );
