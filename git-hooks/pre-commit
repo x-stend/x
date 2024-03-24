@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+// This needs work. Consider writing separate node ".esm" file, which might make it easier to import
+// scripts from the project (such as eslint.config.js) for review.
+
+// in this file, use a normal shebang instead of a node shebang and run `node pre-commit.mjs` or
+// something like that.

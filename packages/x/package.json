@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
     "test": "vitest"
   },
   "devDependencies": {

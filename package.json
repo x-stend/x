@@ -4,6 +4,7 @@
   "description": "`x$` is a highly flexible and extendable utility library for JavaScript and TypeScript, designed to streamline the integration and extension of various utility libraries like lodash, moment, and ramda. With `x$`, developers can easily create custom higher-order functions, ensuring adaptability and maintainability in their codebase.",
   "main": "index.js",
   "scripts": {
+    "preinstall": "git config core.hooksPath git-hooks",
     "lint": "lerna run lint",
     "test": "lerna run test"
   },

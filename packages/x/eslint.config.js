@@ -1,22 +1,28 @@
 // @ts-check
 
-import esLint from '@eslint/js';
-import tsEsLint from 'typescript-eslint';
-import { URL } from 'node:url';
+import eslint from '@eslint/js';
+import tsEslint from 'typescript-eslint';
 
-const tsconfigRootDir = new URL(import.meta.url)
-  ?.pathname
-  ?.replace(/[^/]+$/, '');
-
-export default tsEsLint.config(
+export default tsEslint.config(
   {
-    languageOptions: {
-      parserOptions: {
-        project: './tsconfig.json',
-        tsconfigRootDir,
-      },
-    },
+    ignores: ['**/dist/**', '**/coverage/**'],
   },
-  esLint.configs.recommended,
-  ...tsEsLint.configs.recommended,
+  eslint.configs.all,
+  ...tsEslint.configs.all,
+  {
+    plugins: {
+      '@typescript-eslint': tsEslint.plugin,
+    },
+    languageOptions: {
+      parser: tsEslint.parser,
+      parserOptions: {
+        project: true,
+      },
+    }
+  },
+  {
+    // disable type-aware linting on JS files
+    files: ['**/*.js'],
+    ...tsEslint.configs.disableTypeChecked,
+  },
 );
